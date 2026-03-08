@@ -1,1 +1,2 @@
-www.quince.com
+dig +short https://box-o-nuggets.github.io/ CNAME
+LiliesQuince.com
