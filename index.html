@@ -3,8 +3,22 @@
 <body>
 
 <button onclick="startVideo()">Play Video</button>
+    
+body{
+    margin:0;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    background:#111;
+}
 
-<video id="vid" controls width="800">
+video{
+    width:800px;
+    
+}
+
+<video id="vid" controls poster="preview.jpg">
     <source src="video.mp4" type="video/mp4">
 </video>
 
